@@ -46,18 +46,6 @@ export default function PostSubscribeActions(props: IProps) {
       <TopicSubscriberWrapper
         renderDescription={() => (
           <span>
-            {" "}
-            Now that you have webpush successfully enabled, subscribe to any of
-            the{" "}
-            <a
-              className="text-text"
-              href="https://news.ycombinator.com/"
-              target="_blank"
-            >
-              HackerNews
-            </a>{" "}
-            feeds above and receive a relevant notification about top posts
-            every 6 hours. Unsubscribe at any time.
           </span>
         )}
         topics={Object.values(topics)}
