@@ -154,25 +154,24 @@ export default function Home() {
           inter.className
         }
       >
-        <h1>Web Push Notifications Demo</h1>
+        <h1>IGY6 Push Notifications Demo</h1>
       </header>
 
       <Head>
-        <title>Web Push Notifications Demo | MagicBell</title>
+        <title>IGY6 Push Notifications Demo | MagicBell</title>
         <meta
           name="description"
-          content="Web push notifications demo and starter template with support for iOS Safari PWA notifications."
+          content="IGY6 push notifications demo and starter template with support for iOS Safari PWA notifications."
           key="desc"
         />
-        <meta property="og:title" content="Web Push Notifications Demo" />
+        <meta property="og:title" content="IGY6 Push Notifications Demo" />
         <meta
           property="og:description"
-          content="Web push notifications demo and starter template with support for iOS Safari PWA notifications."
+          content="IGY6 push notifications demo and starter template with support for iOS Safari PWA notifications."
         />
         <meta property="og:image" content="/sharing-image.png" />
         <meta property="og:image:width" content="432" />
         <meta property="og:image:width" content="226" />
-        <meta property="og:url" content="https://webpushtest.com" />
         <meta property="og:type" content="Website" />
       </Head>
       <main className={"w-full text-text pb-10 px-8 " + inter.className}>
