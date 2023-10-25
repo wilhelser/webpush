@@ -113,17 +113,6 @@ export default function Home() {
               the operating system level (it is possible that notifications are
               muted for your current browser).
             </p>
-            <p className="my-2">
-              If this does not explain it, we would love it if you could tag us{" "}
-              <a
-                className="text-text"
-                href={`https://twitter.com/intent/user?screen_name=${magicBellHandle}`}
-                target="_blank"
-              >
-                @magicbell_io
-              </a>
-              , with reference to your device settings displayed below.
-            </p>
           </section>
         </>
       );
@@ -158,7 +147,7 @@ export default function Home() {
       </header>
 
       <Head>
-        <title>IGY6 Push Notifications Demo | MagicBell</title>
+        <title>IGY6 Push Notifications Demo</title>
         <meta
           name="description"
           content="IGY6 push notifications demo and starter template with support for iOS Safari PWA notifications."
